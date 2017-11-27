@@ -114,6 +114,7 @@ static void mdlOutputs(SimStruct *S, int_T tid)
     InputRealPtrsType  u = ssGetInputPortRealSignalPtrs(S,0);
                real_T *y = ssGetOutputPortRealSignal(S, 0);
 
+               
 
    dhdSetForce(*u[0],*u[1],*u[2],0);
     y[0]=mx;
